@@ -1,6 +1,12 @@
-module.exports = {
-  basePath: '/teste-react',  // Nome do seu repositório GitHub
-  assetPrefix: '/teste-react/',  // Nome do seu repositório GitHub
-  output: 'export',  // Configuração de exportação estática
-  trailingSlash: true,  // URLs amigáveis no GitHub Pages
-}
+const isProd = process.env.NODE_ENV === 'production';
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // Disable default image optimization
+  },
+  assetPrefix: isProd ? '/testereact/' : '',
+  basePath: isProd ? '/testereact' : '',
+  output: 'export'
+};
+
+export default nextConfig;
