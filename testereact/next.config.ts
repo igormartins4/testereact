@@ -1,5 +1,6 @@
 module.exports = {
-  // Nova configuração para exportação estática
-  output: 'export',  // Adicione isso para exportar como uma aplicação estática
-  trailingSlash: true,  // Garante que todas as URLs terminem com uma barra (opcional, mas recomendado para GitHub Pages)
+  basePath: '/teste-react',  // Nome do seu repositório GitHub
+  assetPrefix: '/teste-react/',  // Nome do seu repositório GitHub
+  output: 'export',  // Configuração de exportação estática
+  trailingSlash: true,  // URLs amigáveis no GitHub Pages
 }
