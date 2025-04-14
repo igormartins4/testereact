@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 // Metadata for the application, including the title and description
 export const metadata: Metadata = {
-  title: "Interno Rotas",
+  title: "Interno Rotas 🚌",
   description: "Sistema interno de rotas para gerenciamento de transporte.",
 };
 
