@@ -12,9 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Metadata for the application, including the title and description
 export const metadata: Metadata = {
-  title: "Interno Rotas 2.0 🚌",
-  description: "Veja linhas e rotas online",
+  title: "Interno Rotas",
+  description: "Sistema interno de rotas para gerenciamento de transporte.",
 };
 
 export default function RootLayout({
